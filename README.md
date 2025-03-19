@@ -1,1 +1,1 @@
-pintrest cloned
+pinterest cloned
