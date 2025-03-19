@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=0"
+    />
+    <title>Pinteresting | Gallery Layout</title>
+    <link rel="stylesheet" href="/stylesheets/feed.css" />
+  </head>
+  <!-- A Simple non functional Pinterest inspired page layout created using only HTML and CSS.
+       Created by M. Hassler - Hassified -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+  <body>
+    <div class="grid">
+      <div class="grid-item">
+        <img
+          src="https://images.unsplash.com/photo-1691146735493-d5bed077ef1c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNDIyODN8&ixlib=rb-4.0.3&q=85"
+        />
+      </div>
+
+      <div class="grid-item">
+        <img
+          src="https://images.unsplash.com/photo-1693140301742-b9349aafca29?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNDIyODN8&ixlib=rb-4.0.3&q=85"
+        />
+      </div>
+
+      <div class="grid-item">
+        <img
+          src="https://images.unsplash.com/photo-1693748960930-aa517d67fe00?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNDIyODN8&ixlib=rb-4.0.3&q=85"
+        />
+      </div>
+
+      <div class="grid-item">
+        <img
+          src="https://images.unsplash.com/photo-1695010800005-50cb50823351?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNDIzNzl8&ixlib=rb-4.0.3&q=85"
+        />
+      </div>
+
+      <div class="grid-item">
+        <img
+          src="https://images.unsplash.com/photo-1693576757206-dff6b2bad799?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNDI1Mjd8&ixlib=rb-4.0.3&q=85"
+        />
+      </div>
+    </div>
+
+    <script>
+      $(".grid").imagesLoaded(function () {
+        $(".grid").masonry({
+          itemSelector: ".grid-item",
+        });
+      });
+    </script>
+  </body>
+</html>

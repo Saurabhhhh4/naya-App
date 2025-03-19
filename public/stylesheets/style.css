@@ -1,0 +1,134 @@
+/* Global settings */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy";
+  background-color: #141212; /* Light grey background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Responsive max width */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.content img.img1 {
+  width: 100px; /* Adjusted size for logo */
+  margin-bottom: 1rem;
+}
+
+.header {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.detail {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+h4 {
+  margin-top: 1rem;
+  color: #0073e6;
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn.int {
+  background-color: #e60023;
+  color: white;
+}
+
+.btn.fbk {
+  background-color: #1055df;
+  color: white;
+}
+
+.btn.ggl {
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #e7e4e4;
+}
+
+.btn.fbk i,
+.btn.ggl i {
+  vertical-align: middle;
+}
+
+.or {
+  margin: 1rem 0;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+footer {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+footer b {
+  color: #0073e6;
+  cursor: pointer;
+}
+
+footer hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1rem 0;
+}
+
+.upbtn {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  color: #e60023;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* .upbtn:hover {
+  text-decoration: none;
+} */
+.upbtn{
+  position: relative;
+  top: 50px;
+  left: 140px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  width: 126px;
+  padding: 11px 0px;
+  background-color: rgb(241, 236, 236);
+  border-radius: 20px;
+}
+.error{
+  font-weight:500;
+  color: #e60023;
+  text-transform: capitalize;
+  margin: 7px 0;
+}
